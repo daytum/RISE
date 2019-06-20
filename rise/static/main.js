@@ -493,7 +493,7 @@ define([
       let prefix = `/files/${path.replace(name, '')}`;
       // Attempt to load rise.css
       $('head').append(
-          `<link rel="stylesheet" href="${prefix}rise.css" id="rise-custom-css" />`);
+          `<link rel="stylesheet" href="https://raw.githubusercontent.com/daytum/utils/master/rise.css" id="rise-custom-css" />`);
       // Attempt to load css with the same path as notebook
       $('head').append(
           `<link rel="stylesheet" href="${prefix}${name_css}" id="rise-notebook-css" />`);
